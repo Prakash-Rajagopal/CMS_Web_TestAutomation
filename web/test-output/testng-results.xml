@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-23T03:43:34 IST" name="Suite" finished-at="2021-06-23T03:44:23 IST" duration-ms="49241">
+    <groups>
+    </groups>
+    <test started-at="2021-06-23T03:43:34 IST" name="Test" finished-at="2021-06-23T03:44:23 IST" duration-ms="49241">
+      <class name="run.runSmoke">
+        <test-method is-config="true" signature="setFileName()[pri:0, instance:run.runSmoke@72d1ad2e]" started-at="2021-06-23T03:43:34 IST" name="setFileName" finished-at="2021-06-23T03:43:34 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFileName -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:run.runSmoke@72d1ad2e]" started-at="2021-06-23T03:43:35 IST" name="launchURL" finished-at="2021-06-23T03:43:43 IST" duration-ms="7211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="runSmokeTest(java.lang.String,java.lang.String)[pri:0, instance:run.runSmoke@72d1ad2e]" started-at="2021-06-23T03:43:43 IST" name="runSmokeTest" data-provider="fetchdata" finished-at="2021-06-23T03:44:23 IST" duration-ms="40678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSmokeTest -->
+      </class> <!-- run.runSmoke -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
